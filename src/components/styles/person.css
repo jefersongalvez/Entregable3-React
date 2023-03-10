@@ -1,0 +1,65 @@
+.card {
+    border-radius: 0.5em;
+    background-color: #011301;
+    overflow: hidden;
+    max-width: 300px;
+}
+
+.card__header {
+    position: relative;
+}
+
+.card__container {
+    display: flex;
+    gap: 0.6em;
+    align-items: center;
+    position: absolute;
+    top: 1.5em;
+    width: 7em;
+    background-color: #011301;
+    padding: 0.2em 0 0.2em 0.6em;
+    border-radius: 0 0.4em 0.4em 0;
+
+}
+
+.card__circle {
+    display: block;
+    width: 12px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+
+}
+
+.unknown {
+    background-color: #5c5a5af6;
+}
+
+.Alive {
+    background-color: rgb(36, 211, 36);
+}
+
+.Dead {
+    background-color: rgb(158, 24, 24);
+
+}
+
+.section {
+    padding: 1em 1.2em 1.5em;
+
+}
+
+.section__name {
+    text-align: center;
+    margin-bottom: 0.5em;
+    font-size: 1.2rem;
+}
+
+.list {
+    display: grid;
+    gap: 0.5em;
+}
+
+.item {
+    display: flex;
+    gap: 0.6em;
+}
